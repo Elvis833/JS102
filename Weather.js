@@ -4,10 +4,10 @@ temperature = 26
 if (temperature >= 25) {
     console.log("HOT please wear shorts")
 }
-else if (temperature >= 15) {
+else if (temperature >= 15 && temperature <=25) {
     console.log("Cold please wear a jumper")
 }
-else if (temperature >= 10) {
+else if (temperature <= 15) {
     console.log("Cold please wear a jacket")
 }
 else {
