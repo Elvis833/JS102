@@ -1,0 +1,1 @@
+console.log ("Time or Date Output")
